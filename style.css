@@ -1,0 +1,112 @@
+.bg1 {
+	background-attachment: scroll;
+	background-color: #482974;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center top;
+	float: left;
+	width: 100%;
+	animation: bganimado 8s infinite;
+	height: 600px;
+}
+@keyframes bganimado {
+	0% {
+	background-image: none;
+	}
+	15% {
+	background-image: none;
+	}
+	16% {
+	background-image: url(images/lightning.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	}
+	17% {
+	background-image: none;
+	}
+	18% {
+	background-image: url(images/lightning.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	}
+	19% {
+	background-image: none;
+	}
+	100% {
+	background-image: none;
+	}
+}
+
+
+.bg2 {
+	background-attachment: fixed;
+	background-image: url(images/clouds1.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	float: left;
+	width: 100%;
+	animation: bganimado2 250s infinite;
+	height: 600px;
+}
+@keyframes bganimado2 {
+	0% {
+	background-position: 20000px;
+	}
+	100% {
+	background-position: left;
+	}
+}
+
+
+.bg3 {
+	background-attachment: fixed;
+	background-image: url(images/clouds2.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	float: left;
+	width: 100%;
+	animation: bganimado2 160s infinite;
+	height: 600px;
+}
+@keyframes bganimado3 {
+	0% {
+	background-position: 20000px;
+	}
+	100% {
+	background-position: left;
+	}
+}
+
+
+
+.personagem {
+	float: left;
+	width: 100%;
+	height: 320px;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center center;
+	animation: mudancaicon 0.1s infinite;
+	margin-right: 0%;
+	margin-left: 0%;
+}
+@keyframes mudancaicon {
+    0%		{background-image: url(images/strange1.png);}
+    50%		{background-image: url(images/strange2.png);}
+    100%	{background-image: url(images/strange1.png);}
+}
+
+.flutuar {
+	float: left;
+	width: 100%;
+	animation: flutuar 10s infinite;
+	margin-top: 8%;
+}
+@keyframes flutuar {
+    0%		{margin-top: 8%; margin-left: 0%;}
+    20%		{margin-top: 10%;  margin-left: 4%;}
+    40%		{margin-top: 12%;  margin-left: 0%;}
+    60%		{margin-top: 10%;  margin-left: -4%;}
+    80%		{margin-top: 8%;  margin-left: 0%;}
+    100%	{margin-top: 8%; margin-left: 0%;}
+}
